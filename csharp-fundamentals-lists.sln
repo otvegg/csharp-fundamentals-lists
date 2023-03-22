@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-fundamentals-lists.Main", "csharp-fundamentals-lists.Main\csharp-fundamentals-lists.Main.csproj", "{CE363CC0-6E66-41A6-AA22-3678ABEEF61C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-fundamentals-lists.Test", "csharp-fundamentals-lists.Test\csharp-fundamentals-lists.Test.csproj", "{C1CA449E-D526-4680-B55F-1FB3146556FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE363CC0-6E66-41A6-AA22-3678ABEEF61C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE363CC0-6E66-41A6-AA22-3678ABEEF61C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE363CC0-6E66-41A6-AA22-3678ABEEF61C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE363CC0-6E66-41A6-AA22-3678ABEEF61C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1CA449E-D526-4680-B55F-1FB3146556FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1CA449E-D526-4680-B55F-1FB3146556FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1CA449E-D526-4680-B55F-1FB3146556FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1CA449E-D526-4680-B55F-1FB3146556FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7A4BAA4-C4AE-4DDA-9E4D-B5A8C68ABA59}
+	EndGlobalSection
+EndGlobal
