@@ -27,7 +27,7 @@ namespace csharp_fundamentals_lists.Main
             //TODO:  Lists in C# are a collection object that can store generic types.
             //       e.g.  the  List<string> _question1 = new List<string>() line above 
             //       declares a List<string>  which is a collection of strings.
-            //       by typing _question1.  intellisense shows all of the methods associated with the list.
+            //       by typing _iceCreams.  intellisense shows all of the methods associated with the _inceCreams list.
             //  TODO:  1.  Find the add method and add two more flavours of ice cream: "Phish Food", "Peanut Butter Cup"
 
             //write code here
@@ -47,7 +47,7 @@ namespace csharp_fundamentals_lists.Main
         {
 
             // The code below concatenates this.MoreIceCream to the _iceCreams list into a new results list.
-            //TODO: you can 'chain' methods on the _iceCream list, so add another Concat to include EvenMoreIceCream to the result list
+            //TODO: you can 'chain' methods on the _iceCream list, so add another Concat to include EvenMoreIceCream  (this is defined below) to the result list . e.g.   _iceCreams.Concat(this.MoreIceCream).Concat(other list to concat).ToList()
 
             List<string> results = _iceCreams.Concat(this.MoreIceCream).ToList();
             
@@ -61,7 +61,7 @@ namespace csharp_fundamentals_lists.Main
 
 
             //TODO: Remove the duplicates using the .Distinct() placing just before the .ToList()
-            //      copy the List declaration line from Question3 and add the .Distinct()
+            //      copy the List declaration line from Question3 and add the .Distinct() into the chain.  e.g.  _iceCreams.Concat(this.MoreIceCream).Concat(other list to concat).Distinct().ToList()
             //      be sure to include the MoreIceCream and EvenMoreIceCream lists
 
 
